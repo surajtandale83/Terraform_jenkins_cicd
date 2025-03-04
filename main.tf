@@ -3,7 +3,7 @@ resource "aws_instance" "terrafrom" {
     instance_type = "t2.micro"
     key_name = "multicloud"
     tags =  {
-           name ="dev2"
+           name ="dev2_terraform"
     }
       
 }
